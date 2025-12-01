@@ -1,0 +1,33 @@
+On vous donne une chaîne s. Le score d'une chaîne est défini comme la somme de la différence absolue entre les valeurs ASCII des caractères adjacents.
+
+Renvoie le score de . s
+
+class Solution {
+public:
+    int scoreOfString(string s) {
+        
+    }
+};
+
+
+
+Exemple 1:
+
+Entrée : s = "hello"
+
+Sortie :  13
+
+Explication:
+
+Les valeurs ASCII des caractères ssont : 'h' = 104, 'e' = 101, 'l' = 108, 'o' = 111. Le score de sserait donc |104 - 101| + |101 - 108| + |108 - 108| + |108 - 111| = 3 + 7 + 0 + 3 = 13.
+
+
+Exemple 2 :
+
+Entrée : s = "zaz"
+
+Sortie : 50
+
+Explication:
+
+Les valeurs ASCII des caractères ssont : 'z' = 122, 'a' = 97. Le score de sserait donc |122 - 97| + |97 - 122| = 25 + 25 = 50.

@@ -1,0 +1,30 @@
+Vous recevez un grand entier représenté sous la forme d'un tableau d'entiers digits, où chacun digits[i]est le chiffre de l'entier. Les chiffres sont classés du plus significatif au moins significatif, de gauche à droite. Le grand entier ne contient aucun signe non significatif
+
+Incrémentez le grand entier de un et renvoyez le tableau de chiffres résultant .
+
+
+Exemple 1:
+
+Entrée : chiffres = [1,2,3]
+Sortie : [1,2,4]
+Explication : Le tableau représente l'entier 123.
+Incrémenter de un donne 123 + 1 = 124.
+Ainsi, le résultat devrait être [1,2,4].
+
+
+Exemple 2 :
+
+Entrée : chiffres = [4,3,2,1]
+Sortie : [4,3,2,2]
+Explication : Le tableau représente l'entier 4321.
+Incrémenter de un donne 4321 + 1 = 4322.
+Ainsi, le résultat devrait être [4,3,2,2].
+
+
+Exemple 3 :
+
+Entrée : chiffres = [9]
+Sortie : [1,0]
+Explication : Le tableau représente l'entier 9.
+Incrémenter de un donne 9 + 1 = 10.
+Ainsi, le résultat devrait être [1,0].

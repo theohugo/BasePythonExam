@@ -1,0 +1,25 @@
+Étant donné une chaîne scomposée de mots et d’espaces, renvoie la longueur du dernier mot de la chaîne.
+
+Un mot est une sous-chaîne composé uniquement de caractères autres que des espaces.
+
+
+
+Exemple 1:
+
+Entrée : s = "Hello World"
+Sortie : 5
+Explication : Le dernier mot est "World" avec une longueur de 5.
+
+
+Exemple 2 :
+
+Entrée : s = " Envole-moi vers la lune "
+Sortie : 4
+Explication : Le dernier mot est " lune " avec une longueur de 4.
+
+
+Exemple 3 :
+
+Entrée : s = « Luffy est toujours Joyboy »
+Sortie : 6
+Explication : Le dernier mot est « Joyboy » avec une longueur de 6.
